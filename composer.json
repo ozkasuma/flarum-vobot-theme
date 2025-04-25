@@ -1,0 +1,28 @@
+{
+    "name": "ozkasuma/flarum-vobot-theme",
+    "description": "A Theme for the Vobot community",
+    "type": "flarum-extension",
+    "keywords": [
+        "flarum",
+        "theme",
+        "pallet"
+    ],
+    "require": {
+        "flarum/core": "^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ozkasuma\\Vobot\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Vobot",
+            "category": "theme",
+            "icon": {
+                "name": "fas fa-paint-brush",
+                "backgroundColor": "#3f8be4",
+                "color": "#fff"
+            }
+        }
+    }
